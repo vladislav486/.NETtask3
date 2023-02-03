@@ -24,7 +24,7 @@ namespace Task1
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Sorry, something went wrong. The details:" + ex.Message);
+                Console.WriteLine("Sorry, something went wrong. The details: " + ex.Message);
             }
             void getTheNumber() { 
             foreach (char c in splitSymbols)
